@@ -4,6 +4,7 @@ public class Pattern {
 
 	public static void main(String[] args) {
 		LeftTriangle(4);
+		Triangle(4);
 	}
 	/*01 Left Tringle Pattern
 	*
@@ -24,5 +25,24 @@ public class Pattern {
 	System.out.println();
 	}
 	}
+	/*
+	 
+   * 
+  * * 
+ * * * 
+* * * * 
 
+	 */
+static void Triangle(int n) {
+	for(int i=1;i<=n;i++) {
+	for(int j=1;j<=n-i;j++) {
+		System.out.print(" ");
+		
+	}
+	for(int j=1;j<=i;j++) {
+	System.out.print("* ");
+	}
+	System.out.println();
+	}
+}
 }

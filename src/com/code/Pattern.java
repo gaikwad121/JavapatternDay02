@@ -5,7 +5,13 @@ public class Pattern {
 	public static void main(String[] args) {
 		LeftTriangle(4);
 	}
-	//01 Left Tringle Pattern
+	/*01 Left Tringle Pattern
+	*
+  **
+ ***
+****
+
+*/
 	
 	static void LeftTriangle(int n) {
 	for(int i=1;i<=n;i++) {
